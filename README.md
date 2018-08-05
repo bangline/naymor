@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-Naymor only has three available methods.
+Naymor only has three available methods. More than likely you just want a simple string generated.
+
+```
+require 'naymor'
+
+Naymor.generate # => "clean-disco-05d8a4"
+Naymor.generate # => "agricultural-hell-3b1d56"
+Naymor.generate # => "breezy-chaos-8a19d2"
+# and so on...
+```
 
 ### .generate
 
